@@ -1,28 +1,7 @@
-@media screen and (max-width: 914px) {
+@media screen and (min-width: 768px) and (max-width: 914px) {
   main {
-    width: 87rem;
-    height: 39rem;
-  }
-  .player {
-    padding: 8rem;
-  }
-  .btn--new {
-    width: 25%;
-    top: 2rem;
-  }
-  .btn--roll {
-    top: 25.3rem;
-    width: 23%;
-  }
-  .btn--hold {
-    top: 31.3rem;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 880px) {
-  main {
-    width: 70rem;
-    height: 52rem;
+    width: 75rem;
+    height: 37rem;
   }
   .player {
     padding: 5rem;
@@ -38,10 +17,11 @@
     padding: 0.7rem 3.5rem;
   }
   .btn--new {
-    width: 18%;
+    width: 28%;
+    top: 1rem;
   }
   .btn--roll {
-    top: 33.3rem;
+    top: 20.3rem;
     width: 22%;
   }
   .btn--hold {
@@ -49,8 +29,12 @@
     width: 22%;
   }
   .btn--hold {
-    top: 41.3rem;
+    top: 27.3rem;
     width: 22%;
+  }
+  .dice {
+    top: 9.5rem;
+    height: 8rem;
   }
 }
 @media screen and (min-width: 561px) and (max-width: 700px) {
