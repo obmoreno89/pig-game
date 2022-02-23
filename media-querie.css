@@ -1,0 +1,172 @@
+@media screen and (max-width: 914px) {
+  main {
+    width: 87rem;
+    height: 39rem;
+  }
+  .player {
+    padding: 8rem;
+  }
+  .btn--new {
+    width: 25%;
+    top: 2rem;
+  }
+  .btn--roll {
+    top: 25.3rem;
+    width: 23%;
+  }
+  .btn--hold {
+    top: 31.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+  main {
+    width: 70rem;
+    height: 52rem;
+  }
+  .player {
+    padding: 5rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.7rem 3.5rem;
+  }
+  .btn--new {
+    width: 18%;
+  }
+  .btn--roll {
+    top: 33.3rem;
+    width: 22%;
+  }
+  .btn--hold {
+    top: 40.3rem;
+    width: 22%;
+  }
+  .btn--hold {
+    top: 41.3rem;
+    width: 22%;
+  }
+}
+@media screen and (min-width: 561px) and (max-width: 700px) {
+  main {
+    width: 50rem;
+    height: 36rem;
+  }
+  .player {
+    padding: 5rem;
+  }
+  .name {
+    font-size: 2.5rem;
+
+    margin-top: 2rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .dice {
+    height: 9rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.1rem 2.5rem;
+  }
+  .btn--new {
+    top: 1rem;
+    width: 19rem;
+  }
+  .btn--roll {
+    width: 13rem;
+    font-size: 1.5rem;
+    top: 21rem;
+  }
+
+  .btn--hold {
+    width: 13rem;
+    font-size: 1.5rem;
+    top: 27rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    width: 50rem;
+    height: 95%;
+  }
+  .player {
+    padding: 5rem;
+  }
+  .name {
+    font-size: 2.5rem;
+
+    margin-top: 2rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .dice {
+    height: 9rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.1rem 2.5rem;
+  }
+  .btn--new {
+    top: 1rem;
+  }
+  .btn--roll {
+    width: 13rem;
+    font-size: 1.5rem;
+    top: 23rem;
+  }
+
+  .btn--hold {
+    width: 13rem;
+    font-size: 1.5rem;
+    top: 29rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  main {
+    width: 36rem;
+    height: 54rem;
+  }
+  .player {
+    padding: 0.1rem;
+  }
+  .name {
+    font-size: 2rem;
+    margin-top: 7rem;
+  }
+  .current {
+    margin-bottom: 125px;
+  }
+  .dice {
+    height: 6rem;
+    margin-top: 4rem;
+  }
+  .btn--new {
+    top: 1rem;
+  }
+  .btn {
+    width: 21rem;
+  }
+  .btn--roll {
+    top: 43rem;
+  }
+  .btn--hold {
+    top: 48rem;
+  }
+}
+
+/* detecta si esta en modo obscuro */
+@media screen and (prefers-color-scheme: dark) {
+}
+
+/*  */
